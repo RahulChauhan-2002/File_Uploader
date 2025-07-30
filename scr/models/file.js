@@ -5,13 +5,17 @@ const fileSchema= new mongoose.Schema({
         type: String,
         required:true
     },
-    size:{
-        type:Number,
+    imageUrl:{
+        type:String,
         required:true
     },
     createdAt:{
         type:Date,
         default:Date.now
+    },
+    tag:{
+        type:String,
+        required:true
     }
 });
 
