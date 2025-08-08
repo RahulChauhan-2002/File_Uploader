@@ -1,8 +1,8 @@
 import express from "express";
-import dbConnect from "./scr/config/dbConnect.js";
+import dbConnect from "./src/config/dbConnect.js";
 import fileUpload from "express-fileupload";
-import cloudinaryConnect from "./scr/config/cloudinary.js";
-import fileUploadRoute from "./scr/routes/fileUploadRoute.js";
+import cloudinaryConnect from "./src/config/cloudinary.js";
+import fileUploadRoute from "./src/routes/fileUploadRoute.js";
 import dotenv from "dotenv";
 
 dotenv.config();
